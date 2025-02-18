@@ -1,0 +1,62 @@
+body {
+    background-color: darksalmon;
+}
+header {
+    width: 95%;
+    border: 1px solid snow;
+    padding: 30px;
+    border-radius: 30px;
+    text-allign: center;
+}
+header p {
+    color:deeppink;
+    font-style: italic;
+}
+
+header img {
+    width: 30%;
+    border: 3px solid#FFBOBOO;
+    border-radius: 40px 0 40px 0;
+    box-shadow: 6px 6px 10px #FFECC8;
+}
+header img:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+}
+header h1 {
+    color:hotpink;
+}
+
+button:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+}
+
+.about {
+   width: 95%;
+   border: 1px solid magenta
+   margin: 30px auto;
+   padding: 30px;
+   display: flex;
+}
+.left-about img {
+    width: 60%;
+    border-radius: 100
+}
+.right-about h2 {
+    color: rgb(99, 204, 204);
+}
+#products h2 {
+    color: deeppink;
+}
+.products-card {
+    padding:20px;
+    border: 1px dashed cornsilk;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    width: 350px;
+    border: 1px solid coral;
+}
